@@ -1,0 +1,123 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #87CEEB; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #0073e6; 
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #0073e6;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 1;
+    margin-right: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.error {
+    color: #e60000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.weather-info {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ccc;
+}
+
+.weather-info h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    color: #0073e6;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.weather-info p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.weather-info .temperature {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff4500;
+    margin-bottom: 10px;
+}
+
+.weather-info .description {
+    font-style: italic;
+    color: #666;
+}
+
+.weather-info .details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.weather-info .details div {
+    flex: 1;
+    padding: 5px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    margin: 0 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
